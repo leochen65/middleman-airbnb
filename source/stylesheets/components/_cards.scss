@@ -1,9 +1,9 @@
 .card {
   height: 175px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-shadow: 0 1px 3px $semi-transparent-black;
   background-size: cover !important;
   background-position: center;
-  color: white;
+  color: $white;
   position: relative;
 }
 .card-user {
@@ -40,9 +40,9 @@
   right: 0;
   width: 100%;
   z-index: 2;
-  background: black;
+  background: $semi-transparent-black;
   opacity: 0;
-}
-.card-link:hover {
+  &:hover {
   opacity: 0.1;
+  }
 }
